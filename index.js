@@ -83,4 +83,18 @@ const getTrappingRainWater = function (a) {
   return v[4];
 };
 
+// const getTrappingRainWater = function (a) {
+//   let totalWater = 0;
+//   for (
+//     let v = [0, a.length - 1, 0];
+//     v[0] < v[1];
+//     a[v[0]] <= a[v[1]] ? v[0]++ : v[1]--
+//   ) {
+//     v[2] = Math.max(v[2], Math.min(a[v[0]], a[v[1]]));
+//     totalWater += v[2] - Math.min(a[v[0]], a[v[1]]);
+//   }
+
+//   return totalWater;
+// };
+
 console.log(getTrappingRainWater(heights));
