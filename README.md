@@ -20,4 +20,7 @@ Given n non-negative integers representing an elevation map where the width of e
 
 > The solution is very slow, but I can’t explain why at the moment... I'll check later again!!!
 
+# final Solution
+[LeetCode](https://leetcode.com/submissions/detail/705517117/)
+
 [![Run on Repl.it](https://repl.it/badge/github/oscharko/JS-LeetCode-42-Trapping-Rain-Water)](https://replit.com/@oscharko/JS-LeetCode-42-Trapping-Rain-Water)
